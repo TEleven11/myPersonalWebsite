@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background: #ece6db;
+}
+
+.w{
+    width:1000px;
+    margin:auto;
+    margin-top:30px;
+    border-bottom: 1px solid #6795a0;
+}
+h1{
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+/*设置放置轮播图的盒子*/
+.animabox {
+    width: 600px;
+    height: 400px;
+    margin:50px auto;
+    overflow: hidden;   
+}
+
+/*对放置图片的li进行设置*/
+.anitem {
+    width: 600px;
+    height: 400px;
+    float: left;
+    list-style: none;
+}
+
+
+/*设置动画的主要属性*/
+.ani {
+    width: 3600px;
+    height: 400px;
+    animation: myani 15s 0s alternate ease-in-out infinite;
+    -ms-animation: myani 15s 0s alternate ease-in-out infinite;
+    -moz-animation: myani 15s 0s alternate ease-in-out infinite;
+    -webkit-animation: myani 15s 0s alternate ease-in-out infinite;
+
+}
+
+
+
+
+/* 对动画的关键帧进行设置*/
+@keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -600px;
+    }
+    40% {
+        margin-left: -1200px;
+    }
+    60% {
+        margin-left: -1800px;
+    }
+    80% {
+        margin-left: -2400px;
+    }
+    100% {
+        margin-left: -3000px;
+    }
+}
+/*对动画的关键帧进行兼容处理*/
+@-webkit-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -600px;
+    }
+    40% {
+        margin-left: -1200px;
+    }
+    60% {
+        margin-left: -1800px;
+    }
+    80% {
+        margin-left: -2400px;
+    }
+    100% {
+        margin-left: -3000px;
+    }
+}
+
+@-moz-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -600px;
+    }
+    40% {
+        margin-left: -1200px;
+    }
+    60% {
+        margin-left: -1800px;
+    }
+    80% {
+        margin-left: -2400px;
+    }
+    100% {
+        margin-left: -3000px;
+    }
+}
+
+@-ms-keyframes myani {
+    0% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -600px;
+    }
+    40% {
+        margin-left: -1200px;
+    }
+    60% {
+        margin-left: -1800px;
+    }
+    80% {
+        margin-left: -2400px;
+    }
+    100% {
+        margin-left: -3000px;
+    }
+}
+
+.game{
+    width: 100%;
+    margin-top:50px;
+}
+
+.inner{
+    width:900px;
+    margin:auto;
+}
+
+.gameintro{
+    width:400px;
+    float:right;
+    margin-right:100px; 
+}
+
+.gameintro p{
+    margin-top: 0;
+    line-height: 35px;
+}
+
+span{
+    color: #954b4b;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    background: white;
+    margin-top: 100px;
+}
+
+.footer p{
+    padding-top:15px;
+    font-size:12px;
+    text-align: center;
+}

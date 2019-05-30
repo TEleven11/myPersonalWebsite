@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background: #ece6db;
+}
+
+
+.introd
+{
+    width: 960px;
+    margin: 50px auto 10px auto;
+
+}
+
+.de{
+    border-top:2px;
+    border-bottom: 1px solid #6795a0;
+    padding-bottom: 8px;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    margin-top: 30px;
+    background: white;
+}
+
+.footer p{
+    padding-top:15px;
+    padding-left: 20px;
+    font-size:12px;
+}
+
+li{
+    font-size: 15px;
+    line-height: 25px;
+}
